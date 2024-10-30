@@ -101,21 +101,3 @@ app.listen(PORT, () => {
 });
 
 
-
-/*
-        <div class="card">
-          <img class="card-image" src="icons/animais/a/aveztrus_4.svg" alt="avestruz 4">
-          <div class="category">Animais</div>
-          <div class="heading">avestruz 4
-
-          </div>
-
-          <button class="pushable">
-            <span class="shadow"></span>
-            <span class="edge"></span>
-            <span class="front">Download</span>
-          </button>
-
-        </div>
-
-*/ 

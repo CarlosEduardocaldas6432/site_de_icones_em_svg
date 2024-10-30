@@ -26,7 +26,7 @@ function mostra_escoder_sobre() {
 
 
 // Fazendo uma requisição para a API no backend
-fetch('http://localhost:3000/api/animais')
+fetch('https://icones-gratis-em-svg.onrender.com/api/animais')
   .then(response => response.json())
   .then(fileNames => {
     nomes_dos_arquivos = fileNames
