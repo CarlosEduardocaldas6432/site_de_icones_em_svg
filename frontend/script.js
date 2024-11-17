@@ -75,16 +75,6 @@ for (i = 0; i < acc.length; i++) {
 
 
 
-  function baixar_img () {
-
-
-
-
-  }
-
-
-
-
 
 
   // Função para gerar os cards
