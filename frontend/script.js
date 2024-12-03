@@ -26,7 +26,7 @@ function mostra_escoder_sobre() {
 
 
 // Fazendo uma requisição para a API no backend
-fetch('https://icones-gratis-em-svg.onrender.com/api/animais')
+fetch('nomes.json')
   .then(response => response.json())
   .then(fileNames => {
     nomes_dos_arquivos = fileNames
@@ -194,9 +194,7 @@ document.querySelectorAll('.pushable').forEach(button => {
 
 }
 
-// Lista de arquivos de imagem (substitua com os arquivos corretos de cada letra)
-const imageFiles_A = ['aveztrus_4.svg', 'aranha_2.svg', 'alce_1.svg'];
-const imageFiles_B = ['baleia_1.svg', 'bicho-preguica_2.svg']; // Exemplo para "B"
+
 // Adicione mais listas de arquivos conforme necessário...
 
 // Função para detectar qual botão foi clicado

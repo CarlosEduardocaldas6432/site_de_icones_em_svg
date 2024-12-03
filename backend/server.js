@@ -1,3 +1,10 @@
+
+
+
+
+// ATENÇÃO: devido a mundanças esse backend não é  mais usado na aplicação
+
+
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
@@ -75,7 +82,13 @@ diversos = getDiversosFileNames()
 animais = getAnimalFileNames()  
 frutas_e_legumes = getFrutas_e_legumesFileNames()
 
+const fileNames = {
+  nomes_diversos:diversos,
+//  nomes_animais:animais,
+ // nomes_frutas_e_legumes:frutas_e_legumes
 
+};
+console.log(fileNames)
 
 
 
@@ -92,6 +105,7 @@ app.get('/api/animais', (req,res) => {
     nomes_frutas_e_legumes:frutas_e_legumes
 
   };
+  console.log(fileNames)
   res.json(fileNames);
 });
 
